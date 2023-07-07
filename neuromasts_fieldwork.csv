@@ -1,0 +1,155 @@
+﻿INDIVIDUAL_ID,ECOMORPH,STANDARD_LENGTH_MM,UPPER_TRUNK_CN,LOWER_TRUNK_CN,UPPER_TRUNK_SN,LOWER_TRUNK_SN,OTHER_TRUNK_SN,NOSE,FOREHEAD,PRE-GILL,GILL-LINE,DORSAL,TOTAL_HEAD_SN,TOTAL_TRUNK_CN,TOTAL_TRUNK_SN,AVERAGE_TRUNK_SNS_PER_CN,NUMBER_CAUDAL_LINES,SL,sampling_location,subpop_for_graph,sex
+MDB01,BENTHIC,113.862,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2,113.86,masoko,masoko benthic,M
+MDB02,BENTHIC,91.762,20,12,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2,91.76,masoko,masoko benthic,M
+MDB03,BENTHIC,90.442,21,12,41,9,9,8,8,21,11,2,50,33,59,1.787878788,2,90.44,masoko,masoko benthic,M
+MDB04,BENTHIC,82.393,21,11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2,82.39,masoko,masoko benthic,M
+MDB05,BENTHIC,64.267,20,11,36,9,6,NA,NA,6,7,NA,NA,31,51,1.64516129,2,64.27,masoko,masoko benthic,M
+MDB06,BENTHIC,94.49,21,13,55,18,0,14,12,11,5,8,50,34,73,2.147058824,2,94.49,masoko,masoko benthic,M
+MDB07,BENTHIC,87.411,21,9,40,4,2,NA,NA,4,4,NA,NA,30,46,1.533333333,2,87.41,masoko,masoko benthic,M
+MDB08,BENTHIC,108.462,21,12,37,7,3,14,12,10,12,2,50,33,47,1.424242424,2,108.46,masoko,masoko benthic,M
+MDB09,BENTHIC,94.566,21,11,41,12,12,15,10,13,6,2,46,32,65,2.03125,2,94.57,masoko,masoko benthic,M
+MDB10,BENTHIC,90.524,21,11,48,6,4,14,8,15,5,2,44,32,58,1.8125,2,90.52,masoko,masoko benthic,M
+MDB11,BENTHIC,90.733,20,12,32,9,7,12,10,16,11,4,53,32,48,1.5,2,90.73,masoko,masoko benthic,M
+MDB12,BENTHIC,84.78,21,11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2,84.78,masoko,masoko benthic,F
+MDB13,BENTHIC,78.019,21,10,38,8,8,15,12,18,17,5,67,31,54,1.741935484,2,78.02,masoko,masoko benthic,M
+MDB14,BENTHIC,54.87,21,12,57,15,11,NA,9,14,13,1,NA,33,83,2.515151515,2,54.87,masoko,masoko benthic,M
+MDB15,BENTHIC,85.019,20,13,42,16,7,10,10,12,8,1,41,33,65,1.96969697,2,85.02,masoko,masoko benthic,M
+MDB16,BENTHIC,77.239,21,13,38,6,2,NA,14,22,13,0,NA,34,46,1.352941176,2,77.24,masoko,masoko benthic,M
+MDB17,BENTHIC,72.683,21,11,45,8,6,30,5,12,9,1,57,32,59,1.84375,2,72.68,masoko,masoko benthic,F
+MDB18,BENTHIC,92.798,23,8,47,2,6,18,12,16,8,0,54,31,55,1.774193548,2,92.8,masoko,masoko benthic,M
+MDB19,BENTHIC,85.863,21,12,33,1,9,14,5,NA,NA,0,NA,33,43,1.303030303,2,85.86,masoko,masoko benthic,M
+MDB20,BENTHIC,84.128,20,13,38,12,4,15,10,10,13,1,49,33,54,1.636363636,2,84.13,masoko,masoko benthic,M
+MDB21,BENTHIC,68.197,21,12,44,12,8,14,NA,NA,7,0,NA,33,64,1.939393939,2,68.2,masoko,masoko benthic,F
+MDB22,BENTHIC,105.85,21,10,53,8,8,13,15,14,13,1,56,31,69,2.225806452,2,105.85,masoko,masoko benthic,M
+MDB23,BENTHIC,61.429,21,10,40,14,10,13,NA,10,10,0,NA,31,64,2.064516129,2,61.43,masoko,masoko benthic,M
+MDB24,BENTHIC,78.435,20,13,42,8,5,18,16,8,7,3,52,33,55,1.666666667,2,78.44,masoko,masoko benthic,M
+MDB25,BENTHIC,112.493,20,10,31,12,3,17,10,9,8,0,44,30,46,1.533333333,2,112.49,masoko,masoko benthic,M
+MSH01,LITTORAL,66.401,20,13,NA,NA,NA,NA,NA,NA,NA,NA,NA,33,NA,NA,2,66.4,masoko,masoko littoral,M
+MSH02,LITTORAL,70.943,21,9,NA,NA,NA,NA,NA,NA,NA,NA,NA,30,NA,NA,2,70.94,masoko,masoko littoral,M
+MSH03,LITTORAL,70.727,20,12,NA,NA,NA,NA,NA,NA,NA,NA,NA,32,NA,NA,2,70.73,masoko,masoko littoral,M
+MSH04,LITTORAL,NA,21,8,NA,NA,NA,NA,NA,NA,NA,NA,NA,29,NA,NA,2,64.18,masoko,masoko littoral,M
+MSH05,LITTORAL,90.186,21,8,NA,NA,NA,NA,NA,NA,NA,NA,NA,29,NA,NA,2,90.19,masoko,masoko littoral,M
+MSH06,LITTORAL,90.758,21,12,NA,NA,NA,NA,NA,NA,NA,NA,NA,33,NA,NA,2,90.76,masoko,masoko littoral,M
+MSH07,LITTORAL,86.898,21,10,NA,NA,NA,NA,NA,NA,NA,NA,NA,31,NA,NA,2,86.9,masoko,masoko littoral,M
+MSH08,LITTORAL,108.551,18,12,NA,NA,NA,NA,NA,NA,NA,NA,NA,30,NA,NA,2,78.96,masoko,masoko littoral,M
+MSH09,LITTORAL,118.997,21,10,NA,NA,NA,NA,NA,NA,NA,NA,NA,31,NA,NA,2,119,masoko,masoko littoral,M
+MSH10,LITTORAL,74.129,20,12,NA,NA,NA,NA,NA,NA,NA,NA,NA,32,NA,NA,2,74.13,masoko,masoko littoral,M
+MSH11,LITTORAL,73.508,21,11,NA,NA,NA,NA,NA,NA,NA,NA,NA,32,NA,NA,2,73.51,masoko,masoko littoral,M
+MSH12,LITTORAL,73.666,NA,11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2,73.67,masoko,masoko littoral,M
+MSH13,LITTORAL,77.239,20,10,NA,NA,NA,NA,NA,NA,NA,NA,NA,30,NA,NA,2,77.24,masoko,masoko littoral,M
+MSH14,LITTORAL,113.894,21,12,NA,NA,NA,NA,NA,NA,NA,NA,NA,33,NA,NA,2,113.89,masoko,masoko littoral,M
+MSH15,LITTORAL,71.391,20,11,NA,NA,NA,NA,NA,NA,NA,NA,NA,31,NA,NA,2,71.39,masoko,masoko littoral,M
+MSH16,LITTORAL,67.606,20,10,NA,NA,NA,NA,NA,NA,NA,NA,NA,30,NA,NA,2,67.61,masoko,masoko littoral,M
+MSH17,LITTORAL,71.069,20,10,NA,NA,NA,NA,NA,NA,NA,NA,NA,30,NA,NA,2,71.07,masoko,masoko littoral,M
+MSH18,LITTORAL,107.828,19,10,NA,NA,NA,NA,NA,NA,NA,NA,NA,29,NA,NA,2,107.83,masoko,masoko littoral,M
+MSH19,LITTORAL,85.843,21,11,NA,NA,NA,NA,NA,NA,NA,NA,NA,32,NA,NA,2,85.84,masoko,masoko littoral,M
+MSH20,LITTORAL,107.134,20,12,NA,NA,NA,NA,NA,NA,NA,NA,NA,32,NA,NA,2,107.13,masoko,masoko littoral,M
+MSH21,LITTORAL,72.215,19,10,NA,NA,NA,NA,NA,NA,NA,NA,NA,29,NA,NA,2,92.97,masoko,masoko littoral,M
+MSH22,LITTORAL,105.485,20,9,36,4,5,7,11,8,8,1,35,29,45,1.551724138,2,105.49,masoko,masoko littoral,M
+MSH23,LITTORAL,61.98,20,12,55,15,4,8,14,10,9,0,41,32,74,2.3125,2,61.98,masoko,masoko littoral,M
+MSH24,LITTORAL,75.865,20,11,44,10,0,17,11,12,8,0,48,31,54,1.741935484,2,75.87,masoko,masoko littoral,M
+MSH25,LITTORAL,115.024,19,10,28,11,5,14,18,9,10,1,52,29,44,1.517241379,2,115.02,masoko,masoko littoral,M
+MSH26,LITTORAL,86.967,21,13,55,16,5,14,10,11,9,0,44,34,76,2.235294118,2,86.97,masoko,masoko littoral,M
+MSH27,LITTORAL,119.573,21,10,48,11,3,14,13,8,8,1,44,31,62,2,2,119.57,masoko,masoko littoral,M
+MSH28,LITTORAL,65.721,20,11,51,19,9,15,10,13,14,0,52,31,79,2.548387097,2,65.72,masoko,masoko littoral,M
+MSH29,LITTORAL,84.733,21,12,57,11,6,14,16,11,14,0,55,33,74,2.242424242,2,84.73,masoko,masoko littoral,M
+MSH30,LITTORAL,112.379,19,11,54,13,14,16,19,16,15,1,67,30,81,2.7,2,112.38,masoko,masoko littoral,M
+MSH31,LITTORAL,110.219,20,11,41,15,2,20,15,12,11,2,60,31,58,1.870967742,2,110.22,masoko,masoko littoral,M
+MSH32,LITTORAL,77.034,20,10,45,6,4,NA,14,9,9,1,NA,30,55,1.833333333,2,77.03,masoko,masoko littoral,F
+MSH33,LITTORAL,61.494,17,11,35,8,4,19,15,8,9,2,53,28,47,1.678571429,2,61.49,masoko,masoko littoral,M
+MSH34,LITTORAL,91.578,20,14,43,17,8,15,16,15,14,0,60,34,68,2,2,91.58,masoko,masoko littoral,M
+MSH35,LITTORAL,96.517,21,11,45,11,2,9,14,14,9,1,47,32,58,1.8125,2,96.52,masoko,masoko littoral,M
+MSH36,LITTORAL,53.724,20,9,47,4,2,18,20,13,18,2,71,29,53,1.827586207,2,53.72,masoko,masoko littoral,F
+MSH37,LITTORAL,104.754,20,12,44,8,4,13,16,16,13,1,59,32,56,1.75,2,104.75,masoko,masoko littoral,M
+MSH38,LITTORAL,91.003,19,10,39,11,2,NA,10,15,13,0,NA,29,52,1.793103448,2,91,masoko,masoko littoral,M
+MSH39,LITTORAL,89.865,21,12,38,6,6,12,14,21,10,0,57,33,50,1.515151515,2,89.87,masoko,masoko littoral,M
+MSH40,LITTORAL,104.57,20,12,40,9,4,NA,NA,14,14,2,NA,32,53,1.65625,2,104.57,masoko,masoko littoral,M
+MSH41,LITTORAL,93.307,20,12,37,10,6,9,10,10,13,0,42,32,53,1.65625,2,93.307,masoko,masoko littoral,M
+MSH42,LITTORAL,69.144,21,11,37,6,9,13,14,20,15,2,64,32,52,1.625,2,69.144,masoko,masoko littoral,M
+MSH43,LITTORAL,68.939,19,11,43,6,3,NA,8,NA,NA,2,NA,30,52,1.733333333,2,68.939,masoko,masoko littoral,F
+MSH44,LITTORAL,69.909,20,10,53,13,7,14,23,19,11,0,67,30,73,2.433333333,2,69.909,masoko,masoko littoral,M
+MSH45,LITTORAL,69.532,18,10,36,4,4,NA,NA,9,NA,2,NA,28,44,1.571428571,2,69.532,masoko,masoko littoral,M
+MSH46,LITTORAL,69.174,20,11,48,6,4,14,14,12,10,1,51,31,58,1.870967742,2,69.174,masoko,masoko littoral,M
+MSH47,LITTORAL,68.942,20,12,49,12,2,NA,NA,10,8,0,NA,32,63,1.96875,2,68.942,masoko,masoko littoral,F
+MSH48,LITTORAL,72.036,22,11,32,7,8,NA,NA,10,NA,2,NA,33,47,1.424242424,2,72.036,masoko,masoko littoral,F
+MSH49,LITTORAL,65.642,20,12,48,20,11,14,14,13,11,2,54,32,79,2.46875,2,65.642,masoko,masoko littoral,F
+MSH50,LITTORAL,68.069,18,13,26,7,5,NA,16,15,11,7,NA,31,38,1.225806452,2,68.069,masoko,masoko littoral,F
+MSH51,LITTORAL,78.354,20,10,41,7,5,12,14,13,14,5,58,30,53,1.766666667,2,78.354,masoko,masoko littoral,M
+MSH52,LITTORAL,64.344,19,9,31,7,4,NA,NA,NA,NA,NA,NA,28,42,1.5,2,64.344,masoko,masoko littoral,M
+MSH54,LITTORAL,NA,19,13,37,13,3,10,16,NA,10,0,NA,32,53,1.65625,2,84.027,masoko,masoko littoral,F
+MSH55,LITTORAL,NA,21,9,47,13,6,17,15,18,20,1,71,30,66,2.2,2,81.902,masoko,masoko littoral,M
+DIP01,Diplotaxodon limnothrissa,,26,14,NA,NA,NA,NA,NA,NA,NA,NA,62,40,83,2.075,NA,126,hull,diplotaxodon,U
+DIP02,Diplotaxodon limnothrissa,,25,14,NA,NA,NA,NA,NA,NA,NA,NA,NA,39,NA,NA,NA,113,hull,diplotaxodon,U
+DIP03,Diplotaxodon limnothrissa,,25,16,NA,NA,NA,NA,NA,NA,NA,NA,NA,41,NA,NA,NA,142,hull,diplotaxodon,U
+DIP04,Diplotaxodon limnothrissa,,27,13,NA,NA,NA,NA,NA,NA,NA,NA,67,40,109,2.725,NA,110,hull,diplotaxodon,U
+DIP05,Diplotaxodon limnothrissa,,24,14,NA,NA,NA,NA,NA,NA,NA,NA,44,38,72,1.894736842,NA,111,hull,diplotaxodon,U
+LAB01,Labeotropheus trewavasae,,23,12,NA,NA,NA,NA,NA,NA,NA,NA,41,35,50,1.428571429,NA,79,hull,mbuna,U
+LAB02,Labeotropheus trewavasae,,24,11,NA,NA,NA,NA,NA,NA,NA,NA,52,35,52,1.485714286,NA,72,hull,mbuna,U
+LAB03,Labeotropheus trewavasae,,25,12,NA,NA,NA,NA,NA,NA,NA,NA,50,37,62,1.675675676,NA,80,hull,mbuna,U
+LAB04,Labeotropheus trewavasae,,29,14,NA,NA,NA,NA,NA,NA,NA,NA,38,43,48,1.11627907,NA,85,hull,mbuna,U
+LAB05,Labeotropheus trewavasae,,24,14,NA,NA,NA,NA,NA,NA,NA,NA,31,38,51,1.342105263,NA,80,hull,mbuna,U
+MB01,Maylandia estherae,,26,13,NA,NA,NA,NA,NA,NA,NA,NA,37,39,62,1.58974359,NA,64,hull,mbuna,U
+MB02,Maylandia estherae,,26,12,NA,NA,NA,NA,NA,NA,NA,NA,35,38,61,1.605263158,NA,71,hull,mbuna,U
+MB03,Maylandia estherae,,24,11,NA,NA,NA,NA,NA,NA,NA,NA,50,35,75,2.142857143,NA,70,hull,mbuna,U
+MB04,Maylandia estherae,,23,13,NA,NA,NA,NA,NA,NA,NA,NA,NA,36,NA,NA,NA,76,hull,mbuna,U
+MB05,Maylandia estherae,,24,14,NA,NA,NA,NA,NA,NA,NA,NA,41,38,61,1.605263158,NA,74,hull,mbuna,U
+NLV01,Nimbochromis livingstonii,,21,15,NA,NA,NA,NA,NA,NA,NA,NA,52,36,55,1.527777778,NA,65,hull,shallow benthic,U
+NLV02,Nimbochromis livingstonii,,25,14,NA,NA,NA,NA,NA,NA,NA,NA,37,39,52,1.333333333,NA,67,hull,shallow benthic,U
+NLV03,Nimbochromis livingstonii,,22,13,NA,NA,NA,NA,NA,NA,NA,NA,NA,35,NA,NA,NA,74,hull,shallow benthic,U
+NLV04,Nimbochromis livingstonii,,23,14,NA,NA,NA,NA,NA,NA,NA,NA,38,37,57,1.540540541,NA,70,hull,shallow benthic,U
+NLV05,Nimbochromis livingstonii,,25,17,NA,NA,NA,NA,NA,NA,NA,NA,NA,42,NA,NA,NA,75,hull,shallow benthic,U
+NY01,Nyassochromis microcephalus,,23,15,NA,NA,NA,NA,NA,NA,NA,NA,50,38,75,1.973684211,NA,78,hull,utaka,U
+NY02,Nyassochromis microcephalus,,24,16,NA,NA,NA,NA,NA,NA,NA,NA,52,40,71,1.775,NA,72,hull,utaka,U
+NY03,Nyassochromis microcephalus,,28,15,NA,NA,NA,NA,NA,NA,NA,NA,NA,43,NA,NA,NA,70,hull,utaka,U
+NY04,Nyassochromis microcephalus,,28,17,NA,NA,NA,NA,NA,NA,NA,NA,41,45,59,1.311111111,NA,73,hull,utaka,U
+NY05,Nyassochromis microcephalus,,26,14,NA,NA,NA,NA,NA,NA,NA,NA,NA,40,NA,NA,NA,77,hull,utaka,U
+PRO01,Protomelas johnstoni solo,,21,12,NA,NA,NA,NA,NA,NA,NA,NA,NA,33,NA,NA,NA,76,hull,shallow benthic,U
+PRO02,Protomelas johnstoni solo,,24,14,NA,NA,NA,NA,NA,NA,NA,NA,NA,38,NA,NA,NA,91,hull,shallow benthic,U
+PRO03,Protomelas johnstoni solo,,22,13,NA,NA,NA,NA,NA,NA,NA,NA,NA,35,NA,NA,NA,66,hull,shallow benthic,U
+PRO04,Protomelas johnstoni solo,,21,17,NA,NA,NA,NA,NA,NA,NA,NA,NA,38,NA,NA,NA,68,hull,shallow benthic,U
+PRO05,Protomelas johnstoni solo,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,80,hull,shallow benthic,U
+RHL01,Rhamphochromis longiceps,,27,19,NA,NA,NA,NA,NA,NA,NA,NA,88,46,87,1.891304348,NA,78,hull,rhamphochromis,U
+RHL02,Rhamphochromis longiceps,,30,15,NA,NA,NA,NA,NA,NA,NA,NA,102,45,110,2.444444444,NA,95,hull,rhamphochromis,U
+RHL03,Rhamphochromis longiceps,,26,20,NA,NA,NA,NA,NA,NA,NA,NA,NA,46,NA,NA,NA,95,hull,rhamphochromis,U
+RHL04,Rhamphochromis longiceps,,26,17,NA,NA,NA,NA,NA,NA,NA,NA,71,43,89,2.069767442,NA,93,hull,rhamphochromis,U
+RHL05,Rhamphochromis longiceps,,25,19,NA,NA,NA,NA,NA,NA,NA,NA,100,44,127,2.886363636,NA,82,hull,rhamphochromis,U
+RH01,Rhamphochromis chilingali,,25,19,NA,NA,NA,NA,NA,NA,NA,NA,NA,44,NA,NA,NA,115,bangor,rhamphochromis,U
+RH02,Rhamphochromis chilingali,,27,22,NA,NA,NA,NA,NA,NA,NA,NA,NA,49,NA,NA,NA,141,bangor,rhamphochromis,U
+RH03,Rhamphochromis chilingali,,25,20,NA,NA,NA,NA,NA,NA,NA,NA,99,45,95,2.111111111,NA,142,bangor,rhamphochromis,U
+RH04,Rhamphochromis chilingali,,27,19,NA,NA,NA,NA,NA,NA,NA,NA,92,46,82,1.782608696,NA,167,bangor,rhamphochromis,U
+RH05,Rhamphochromis chilingali,,31,21,NA,NA,NA,NA,NA,NA,NA,NA,88,52,101,1.942307692,NA,140,bangor,rhamphochromis,U
+MZB01,Maylandia zebra,,24,12,NA,NA,NA,NA,NA,NA,NA,NA,72,36,51,1.416666667,NA,85,bangor,mbuna,U
+MZB02,Maylandia zebra,,24,12,NA,NA,NA,NA,NA,NA,NA,NA,51,36,58,1.611111111,NA,81,bangor,mbuna,U
+MZB03,Maylandia zebra,,24,14,NA,NA,NA,NA,NA,NA,NA,NA,NA,38,NA,NA,NA,84,bangor,mbuna,U
+MZB04,Maylandia zebra,,26,12,NA,NA,NA,NA,NA,NA,NA,NA,NA,38,NA,NA,NA,86,bangor,mbuna,U
+MZB05,Maylandia zebra,,23,12,NA,NA,NA,NA,NA,NA,NA,NA,NA,35,NA,NA,NA,78,bangor,mbuna,U
+MZB06,Maylandia zebra,,25,11,NA,NA,NA,NA,NA,NA,NA,NA,NA,36,NA,NA,NA,88,bangor,mbuna,U
+AUL02,Aulonocara stuartgranti,,NA,NA,NA,NA,NA,11,18,9,12,4,54,41,173,3.958333333,4,66,bangor,deep benthic,U
+AUL03,Aulonocara stuartgranti,,NA,NA,NA,NA,NA,19,22,15,17,3,76,42,143,2.987980769,4,73,bangor,deep benthic,U
+AUL04,Aulonocara stuartgranti,,NA,NA,NA,NA,NA,19,23,8,16,2,68,40,135,3.354219949,4,72,bangor,deep benthic,U
+AC06,Astatotilapia calliptera salima,,NA,NA,NA,NA,NA,8,12,11,0,1,32,34,34,0.579545455,2,73,bangor,calliptera salima,U
+AC07,Astatotilapia calliptera salima,,NA,NA,NA,NA,NA,8,10,8,5,5,36,34,35,0.810606061,2,83,bangor,calliptera salima,U
+AC08,Astatotilapia calliptera salima,,NA,NA,NA,NA,NA,10,6,5,6,2,29,28,16,0.48245614,2,88,bangor,calliptera salima,U
+AC09,Astatotilapia calliptera salima,,NA,NA,NA,NA,NA,5,6,14,10,1,36,30,27,0.5,2,81,bangor,calliptera salima,U
+AC11,Astatotilapia calliptera salima,,NA,NA,NA,NA,NA,5,20,18,15,2,60,35,47,1.050699301,2,74,bangor,calliptera salima,U
+AC12,Astatotilapia calliptera salima,,NA,NA,NA,NA,NA,12,24,13,13,3,65,31,29,0.990909091,2,77,bangor,calliptera salima,U
+AULB01,Aulonocara stuartgranti,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,19,37,85,2.297297297,NA,122,bristol,deep benthic,U
+AULB02,Aulonocara stuartgranti,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,58,44,108,2.454545455,NA,96,bristol,deep benthic,U
+AULB03,Aulonocara stuartgranti,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,93,39,139,3.564102564,NA,115,bristol,deep benthic,U
+AULB04,Aulonocara stuartgranti,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,9,46,132,2.869565217,NA,110,bristol,deep benthic,U
+AULB05,Aulonocara stuartgranti,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,63,43,142,3.302325581,NA,110,bristol,deep benthic,U
+AULB06,Aulonocara stuartgranti,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,52,40,125,3.125,NA,105,bristol,deep benthic,U
+AULB07,Aulonocara stuartgranti,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,83,40,156,3.9,NA,128,bristol,deep benthic,U
+AULB08,Aulonocara stuartgranti,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,54,45,100,2.222222222,NA,96,bristol,deep benthic,U
+AULB09,Aulonocara stuartgranti,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,65,43,108,2.511627907,NA,120,bristol,deep benthic,U
+AULB10,Aulonocara stuartgranti,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,83,44,212,4.818181818,NA,103,bristol,deep benthic,U
+OT01,Otopharynx lithobates,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,104,48,139,2.895833333,NA,137,bristol,shallow benthic,U
+OT02,Otopharynx lithobates,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,85,42,78,1.857142857,NA,113,bristol,shallow benthic,U
+OT03,Otopharynx lithobates,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,118,45,139,3.088888889,NA,127,bristol,shallow benthic,U
+OT04,Otopharynx lithobates,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,102,45,125,2.777777778,NA,100,bristol,shallow benthic,U
+OT05,Otopharynx lithobates,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,101,44,105,2.386363636,NA,129,bristol,shallow benthic,U
+OT06,Otopharynx lithobates,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,95,44,98,2.227272727,NA,92,bristol,shallow benthic,U
+OT07,Otopharynx lithobates,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,88,45,110,2.444444444,NA,130,bristol,shallow benthic,U
+OT08,Otopharynx lithobates,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,74,45,122,2.711111111,NA,119,bristol,shallow benthic,U
+OT09,Otopharynx lithobates,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,135,43,130,3.023255814,NA,111,bristol,shallow benthic,U
+OT10,Otopharynx lithobates,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,88,48,93,1.9375,NA,113,bristol,shallow benthic,U
