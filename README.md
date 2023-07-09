@@ -4,7 +4,7 @@ Code and data for Edgley et al. | Lateral line diversification during the early 
 
 ---
 
-ASSETS:
+DATA:
 
 pore_areas_masoko.csv - dataframe with pore areas for all cranial canal pores for Masoko specimens
 
