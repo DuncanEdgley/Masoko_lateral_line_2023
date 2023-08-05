@@ -11,6 +11,48 @@ n/a
 
 #### Figure 3 ####
 
+##geometric morphometrics PCAs
+#ventral head
+ventral_pores <- ggplot(data=subset(ventral_plot_data, !is.na(subpop)), 
+                        aes(x=Comp1, y=Comp2, colour=subpop)) + 
+  geom_point() + 
+  stat_ellipse() + 
+  theme_classic() + 
+  scale_color_manual(values=c("#4477AA", "#DDAA33", "gray")) + 
+  xlab("PC1 (60.55%)") + 
+  ylab("PC2 (12.01%)") + 
+  theme(legend.position="none")
+
+ventral_pores 
+
+msh <- mshape(procrustes_ventral$coords)
+plotRefToTarget(pca_ventral$shapes$shapes.comp1$min, msh)
+plotRefToTarget(pca_ventral$shapes$shapes.comp1$max, msh)
+
+plotRefToTarget(pca_ventral$shapes$shapes.comp2$min, msh)
+plotRefToTarget(pca_ventral$shapes$shapes.comp2$max, msh)
+
+#lateral head
+lateral_pores <- ggplot(data=subset(lateral_plot_data, !is.na(subpop)), 
+                        aes(x=Comp1, y=Comp2, colour=subpop)) + 
+  geom_point() + 
+  stat_ellipse() + 
+  theme_classic() + 
+  scale_color_manual(values=c("#4477AA", "#DDAA33", "gray")) + 
+  ylim(-0.06, 0.06) + 
+  xlab("PC1 (37.10%)") + 
+  ylab("PC2 (27.33%)") + 
+  theme(legend.position="none")
+
+lateral_pores
+
+msh <- mshape(procrustes_lateral$coords)
+plotRefToTarget(pca_lateral$shapes$shapes.comp1$min, msh)
+plotRefToTarget(pca_lateral$shapes$shapes.comp1$max, msh)
+
+plotRefToTarget(pca_lateral$shapes$shapes.comp2$min, msh)
+plotRefToTarget(pca_lateral$shapes$shapes.comp2$max, msh)
+
 ##mandibular canal
 #subpop
 subpop_plot_mandibular <- ggplot(data=partial_residuals_mandibular, aes(x=factor(subpop, levels=c("benthic", "middle", "littoral")), y=log10.mean_mandibular_pore_area., fill=subpop)) + 
