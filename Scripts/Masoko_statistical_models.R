@@ -47,7 +47,22 @@ hist(neuromast_data$TOTAL_TRUNK_CN)
 hist(neuromast_data$AVERAGE_TRUNK_SNS_PER_CN)
 
 
+#### PORE MORPHOLOGY PCA ####
 
+data_ventral <- read.csv("Masoko_VH_combined.TPS")
+procrustes_ventral <- gpagen(data_ventral)
+pca_ventral <- gm.prcomp(procrustes_ventral$coords)
+classifiers <- read.csv("classifiers.csv")
+plot(pca_ventral, col=as.factor(classifiers$subpop))
+
+ventral_plot_data <- cbind(pca_ventral$x, classifiers)
+
+data_lateral <- readland.tps("Masoko_LH_combined.TPS")
+procrustes_lateral <- gpagen(data_lateral)
+pca_lateral <- gm.prcomp(procrustes_lateral$coords)
+plot(pca_lateral, col=as.factor(classifiers$subpop))
+
+lateral_plot_data <- cbind(pca_lateral$x, classifiers)
 
 
 #### PORE SIZE ANALYSIS ####
