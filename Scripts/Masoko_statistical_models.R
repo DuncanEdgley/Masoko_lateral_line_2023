@@ -408,7 +408,10 @@ data_malawi$subpop_for_graph <- as.factor(data_malawi$subpop_for_graph)
 
 # get partialized residual values from models - pore areas
 #mandibular
-model_mandibular_pores_malawi <- glm(log10(malawi_mandibular_mean_pore_area)~ subpop_for_graph + log10(SL), data=data_malawi, family="gaussian")
+model_mandibular_pores_malawi <- glm(log10(malawi_mandibular_mean_pore_area)~ subpop_for_graph + 
+                                       log10(SL) + 
+                                       gross_lateral_PC1 + 
+                                       gross_ventral_PC1, data=data_malawi, family="gaussian")
 partial_residuals_mandibular_malawi <- data.frame(partialize(model_mandibular_pores_malawi, vars="subpop_for_graph"))
 summary(aov(model_mandibular_pores_malawi))
 
@@ -417,7 +420,10 @@ post_hoc_mandibular_pores_malawi <- glht(model_mandibular_pores_malawi, mcp(subp
 summary(post_hoc_mandibular_pores_malawi, test=adjusted("bonferroni"))
 
 #preopercular
-model_preopercular_pores_malawi <- glm(log10(malawi_preopercular_mean_pore_area)~ subpop_for_graph + log10(SL), data=data_malawi, family="gaussian")
+model_preopercular_pores_malawi <- glm(log10(malawi_preopercular_mean_pore_area)~ subpop_for_graph + 
+                                         log10(SL) + 
+                                         gross_lateral_PC1 + 
+                                         gross_ventral_PC1, data=data_malawi, family="gaussian")
 partial_residuals_preopercular_malawi <- data.frame(partialize(model_preopercular_pores_malawi, vars="subpop_for_graph"))
 summary(aov(model_preopercular_pores_malawi))
 
@@ -426,7 +432,10 @@ post_hoc_preopercular_pores_malawi <- glht(model_preopercular_pores_malawi, mcp(
 summary(post_hoc_preopercular_pores_malawi, test=adjusted("bonferroni"))
 
 #infraorbital
-model_orbital_pores_malawi <- glm(log10(malawi_orbital_mean_pore_area)~ subpop_for_graph + log10(SL), data=data_malawi, family="gaussian")
+model_orbital_pores_malawi <- glm(log10(malawi_orbital_mean_pore_area)~ subpop_for_graph + 
+                                    log10(SL) + 
+                                    gross_lateral_PC1 + 
+                                    gross_ventral_PC1, data=data_malawi, family="gaussian")
 partial_residuals_orbital_malawi <- data.frame(partialize(model_orbital_pores_malawi, vars="subpop_for_graph"))
 summary(aov(model_orbital_pores_malawi))
 
@@ -435,7 +444,10 @@ post_hoc_orbital_pores_malawi <- glht(model_orbital_pores_malawi, mcp(subpop_for
 summary(post_hoc_orbital_pores_malawi, test=adjusted("bonferroni"))
 
 #otic
-model_otic_pores_malawi <- glm(log10(malawi_otic_mean_pore_area)~ subpop_for_graph + log10(SL), data=data_malawi, family="gaussian")
+model_otic_pores_malawi <- glm(log10(malawi_otic_mean_pore_area)~ subpop_for_graph + 
+                                 log10(SL) + 
+                                 gross_lateral_PC1 + 
+                                 gross_ventral_PC1, data=data_malawi, family="gaussian")
 partial_residuals_otic_malawi <- data.frame(partialize(model_otic_pores_malawi, vars="subpop_for_graph"))
 summary(aov(model_otic_pores_malawi))
 

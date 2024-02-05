@@ -415,8 +415,14 @@ malawi_mandibular_plot <- ggplot(data=partial_residuals_mandibular_malawi,
                                                        "benthic", "middle","littoral")),
                                      y=log10.malawi_mandibular_mean_pore_area., 
                                      fill=subpop_for_graph)) + 
-  geom_boxplot(width=0.5, outlier.shape=NA) + 
-  geom_jitter(width=0.1) + 
+  geom_flat_violin(position=position_nudge(x=.25, y=0), adjust=2, color=NA, alpha=0.8) + 
+  geom_point(data=partial_residuals_mandibular_malawi, 
+             aes(x=subpop_for_graph, y=log10.malawi_mandibular_mean_pore_area.), 
+             position=position_jitter(width=.15), 
+             size=.75) + 
+  geom_boxplot(aes(x=subpop_for_graph, y=log10.malawi_mandibular_mean_pore_area.), 
+               position=position_nudge(x=.25,y=0), 
+               outlier.shape=NA, alpha=0.3, width=.1, colour="black") + 
   theme_classic() + 
   coord_flip() + 
   scale_x_discrete(labels=c("Deep benthic", "Shallow benthic", "Diplotaxodon", 
@@ -428,7 +434,6 @@ malawi_mandibular_plot <- ggplot(data=partial_residuals_mandibular_malawi,
   ylab(expression(paste("Mean mandibular pore area"~ (mm^2)))) + 
   theme(axis.title.y = element_blank(), legend.position="none") + 
   geom_vline(xintercept=6.5, linetype="dashed")
-
 malawi_mandibular_plot
 
 #preopercular
@@ -443,8 +448,14 @@ malawi_preopercular_plot <- ggplot(data=partial_residuals_preopercular_malawi,
                                                          "benthic", "middle","littoral")),
                                        y=log10.malawi_preopercular_mean_pore_area., 
                                        fill=subpop_for_graph)) + 
-  geom_boxplot(width=0.5, outlier.shape=NA) + 
-  geom_jitter(width=0.1) + 
+  geom_flat_violin(position=position_nudge(x=.25, y=0), adjust=4, color=NA, alpha=0.8) + 
+  geom_point(data=partial_residuals_preopercular_malawi, 
+             aes(x=subpop_for_graph, y=log10.malawi_preopercular_mean_pore_area.), 
+             position=position_jitter(width=.15), 
+             size=.75) + 
+  geom_boxplot(aes(x=subpop_for_graph, y=log10.malawi_preopercular_mean_pore_area.), 
+               position=position_nudge(x=.25,y=0), 
+               outlier.shape=NA, alpha=0.3, width=.1, colour="black") + 
   theme_classic() + 
   coord_flip() + 
   scale_x_discrete(labels=c("Deep benthic", "Shallow benthic", "Diplotaxodon", 
@@ -474,9 +485,15 @@ malawi_orbital_plot <- ggplot(data=partial_residuals_orbital_malawi,
                                                     "mbuna", 
                                                     "benthic", "middle","littoral")),
                                   y=log10.malawi_orbital_mean_pore_area., 
-                                  fill=subpop_for_graph)) + 
-  geom_boxplot(width=0.5, outlier.shape=NA) + 
-  geom_jitter(width=0.1) + 
+                                  fill=subpop_for_graph))  + 
+  geom_flat_violin(position=position_nudge(x=.25, y=0), adjust=2, color=NA, alpha=0.8) + 
+  geom_point(data=partial_residuals_orbital_malawi, 
+             aes(x=subpop_for_graph, y=log10.malawi_orbital_mean_pore_area.), 
+             position=position_jitter(width=.15), 
+             size=.75) + 
+  geom_boxplot(aes(x=subpop_for_graph, y=log10.malawi_orbital_mean_pore_area.), 
+               position=position_nudge(x=.25,y=0), 
+               outlier.shape=NA, alpha=0.3, width=.1, colour="black") + 
   theme_classic() + 
   coord_flip() + 
   scale_x_discrete(labels=c("Deep benthic", "Shallow benthic", "Diplotaxodon", 
@@ -494,6 +511,7 @@ malawi_orbital_plot <- ggplot(data=partial_residuals_orbital_malawi,
 
 malawi_orbital_plot
 
+
 #otic
 malawi_otic_plot <- ggplot(data=partial_residuals_otic_malawi, 
                            aes(x=factor(subpop_for_graph, 
@@ -506,8 +524,14 @@ malawi_otic_plot <- ggplot(data=partial_residuals_otic_malawi,
                                                  "benthic", "middle","littoral")),
                                y=log10.malawi_otic_mean_pore_area., 
                                fill=subpop_for_graph)) + 
-  geom_boxplot(width=0.5, outlier.shape=NA) + 
-  geom_jitter(width=0.1) + 
+  geom_flat_violin(position=position_nudge(x=.25, y=0), adjust=2, color=NA, alpha=0.8) + 
+  geom_point(data=partial_residuals_otic_malawi, 
+             aes(x=subpop_for_graph, y=log10.malawi_otic_mean_pore_area.), 
+             position=position_jitter(width=.15), 
+             size=.75) + 
+  geom_boxplot(aes(x=subpop_for_graph, y=log10.malawi_otic_mean_pore_area.), 
+               position=position_nudge(x=.25,y=0), 
+               outlier.shape=NA, alpha=0.3, width=.1, colour="black") + 
   theme_classic() + 
   coord_flip() + 
   scale_x_discrete(labels=c("Deep benthic", "Shallow benthic", "Diplotaxodon", 
@@ -525,21 +549,28 @@ malawi_otic_plot <- ggplot(data=partial_residuals_otic_malawi,
 
 malawi_otic_plot
 
+
 ## neuromast count
 #trunk CN
 malawi_trunk_CN_plot <- ggplot(data=partial_residuals_neuromasts_trunk_CN_malawi, 
                                aes(x=factor(subpop_for_graph, levels=c("deep benthic", "shallow benthic",
                                                                        "diplotaxodon", "rhamphochromis",
-                                                                       "utaka", "mbuna", 
+                                                                       "mbuna", 
                                                                        "calliptera salima", "masoko benthic", "masoko littoral")),
                                    y=log10.TOTAL_TRUNK_CN., 
-                                   fill=subpop_for_graph)) + 
-  geom_boxplot(width=0.5, outlier.shape=NA) + 
-  geom_jitter(width=0.1) + 
+                                   fill=subpop_for_graph))  + 
+  geom_flat_violin(position=position_nudge(x=.25, y=0), adjust=2, color=NA, alpha=0.8) + 
+  geom_point(data=partial_residuals_neuromasts_trunk_CN_malawi, 
+             aes(x=subpop_for_graph, y=log10.TOTAL_TRUNK_CN.), 
+             position=position_jitter(width=.15), 
+             size=.75) + 
+  geom_boxplot(aes(x=subpop_for_graph, y=log10.TOTAL_TRUNK_CN.), 
+               position=position_nudge(x=.25,y=0), 
+               outlier.shape=NA, alpha=0.3, width=.1, colour="black") + 
   theme_classic() + 
   coord_flip() + 
   scale_x_discrete(labels=c("Deep benthic", "Shallow benthic", "Diplotaxodon",
-                            "Rhamphochromis", "utaka", "mbuna", 
+                            "Rhamphochromis",  "mbuna", 
                             "A. calliptera salima", "Masoko deep", "Masoko shallow")) +
   scale_fill_manual(values=c("#CCDDAA", "#CCDDAA","#CCDDAA", 
                              "#4477AA", "#DDAA33", "#CCDDAA", 
@@ -549,7 +580,7 @@ malawi_trunk_CN_plot <- ggplot(data=partial_residuals_neuromasts_trunk_CN_malawi
         axis.text.y=element_blank(),
         axis.line.y=element_blank(),
         axis.ticks.y=element_blank(), legend.position="none") + 
-  geom_vline(xintercept=7.5, linetype="dashed")
+  geom_vline(xintercept=6.5, linetype="dashed")
 
 malawi_trunk_CN_plot
 
@@ -557,16 +588,22 @@ malawi_trunk_CN_plot
 malawi_trunk_SN_plot <- ggplot(data=partial_residuals_neuromasts_trunk_SN_malawi, 
                                aes(x=factor(subpop_for_graph, levels=c("deep benthic", "shallow benthic",
                                                                        "diplotaxodon", "rhamphochromis",
-                                                                       "utaka", "mbuna", 
+                                                                       "mbuna", 
                                                                        "calliptera salima", "masoko benthic", "masoko littoral")),
                                    y=log10.TOTAL_TRUNK_SN., 
-                                   fill=subpop_for_graph)) + 
-  geom_boxplot(width=0.5, outlier.shape=NA) + 
-  geom_jitter(width=0.1) + 
+                                   fill=subpop_for_graph))  + 
+  geom_flat_violin(position=position_nudge(x=.25, y=0), adjust=2, color=NA, alpha=0.8) + 
+  geom_point(data=partial_residuals_neuromasts_trunk_SN_malawi, 
+             aes(x=subpop_for_graph, y=log10.TOTAL_TRUNK_SN.), 
+             position=position_jitter(width=.15), 
+             size=.75) + 
+  geom_boxplot(aes(x=subpop_for_graph, y=log10.TOTAL_TRUNK_SN.), 
+               position=position_nudge(x=.25,y=0), 
+               outlier.shape=NA, alpha=0.3, width=.1, colour="black") + 
   theme_classic() + 
   coord_flip() + 
   scale_x_discrete(labels=c("Deep benthic", "Shallow benthic", "Diplotaxodon",
-                            "Rhamphochromis", "utaka", "mbuna", 
+                            "Rhamphochromis", "mbuna", 
                             "A. calliptera salima", "Masoko deep", "Masoko shallow")) +
   scale_fill_manual(values=c("#CCDDAA", "#CCDDAA","#CCDDAA", 
                              "#4477AA", "#DDAA33", "#CCDDAA", 
@@ -576,31 +613,38 @@ malawi_trunk_SN_plot <- ggplot(data=partial_residuals_neuromasts_trunk_SN_malawi
         axis.text.y=element_blank(),
         axis.line.y=element_blank(),
         axis.ticks.y=element_blank(), legend.position="none") + 
-  geom_vline(xintercept=7.5, linetype="dashed")
+  geom_vline(xintercept=6.5, linetype="dashed")
 
 malawi_trunk_SN_plot
+
 
 #head SN
 malawi_head_SN_plot <- ggplot(data=partial_residuals_neuromasts_head_SN_malawi, 
                               aes(x=factor(subpop_for_graph, levels=c("deep benthic", "shallow benthic",
                                                                       "diplotaxodon", "rhamphochromis",
-                                                                      "utaka", "mbuna", 
+                                                                      "mbuna", 
                                                                       "calliptera salima", "masoko benthic", "masoko littoral")),
                                   y=log10.TOTAL_HEAD_SN., 
-                                  fill=subpop_for_graph)) + 
-  geom_boxplot(width=0.5, outlier.shape=NA) + 
-  geom_jitter(width=0.1) + 
+                                  fill=subpop_for_graph))  + 
+  geom_flat_violin(position=position_nudge(x=.25, y=0), adjust=2, color=NA, alpha=0.8) + 
+  geom_point(data=partial_residuals_neuromasts_head_SN_malawi, 
+             aes(x=subpop_for_graph, y=log10.TOTAL_HEAD_SN.), 
+             position=position_jitter(width=.15), 
+             size=.75) + 
+  geom_boxplot(aes(x=subpop_for_graph, y=log10.TOTAL_HEAD_SN.), 
+               position=position_nudge(x=.25,y=0), 
+               outlier.shape=NA, alpha=0.3, width=.1, colour="black") + 
   theme_classic() + 
   coord_flip() + 
   scale_x_discrete(labels=c("Deep benthic", "Shallow benthic", "Diplotaxodon",
-                            "Rhamphochromis", "utaka", "mbuna", 
+                            "Rhamphochromis",  "mbuna", 
                             "A. calliptera salima", "Masoko deep", "Masoko shallow")) +
   scale_fill_manual(values=c("#CCDDAA", "#CCDDAA","#CCDDAA", 
                              "#4477AA", "#DDAA33", "#CCDDAA", 
                              "#CCDDAA", "#CCDDAA", "#CCDDAA")) + 
   ylab("log total number of head superficial neuromasts") + 
   theme(axis.title.y = element_blank(), legend.position="none") + 
-  geom_vline(xintercept=7.5, linetype="dashed")
+  geom_vline(xintercept=6.5, linetype="dashed")
 
 malawi_head_SN_plot
 
@@ -608,16 +652,22 @@ malawi_head_SN_plot
 malawi_average_sns_per_cn_plot <- ggplot(data=partial_residuals_neuromasts_trunk_sns_per_cn_malawi, 
                                          aes(x=factor(subpop_for_graph, levels=c("deep benthic", "shallow benthic",
                                                                                  "diplotaxodon", "rhamphochromis",
-                                                                                 "utaka", "mbuna", 
+                                                                                 "mbuna", 
                                                                                  "calliptera salima", "masoko benthic", "masoko littoral")),
                                              y=AVERAGE_TRUNK_SNS_PER_CN, 
-                                             fill=subpop_for_graph)) + 
-  geom_boxplot(width=0.5, outlier.shape=NA) + 
-  geom_jitter(width=0.1) + 
+                                             fill=subpop_for_graph))  + 
+  geom_flat_violin(position=position_nudge(x=.25, y=0), adjust=2, color=NA, alpha=0.8) + 
+  geom_point(data=partial_residuals_neuromasts_trunk_sns_per_cn_malawi, 
+             aes(x=subpop_for_graph, y=AVERAGE_TRUNK_SNS_PER_CN), 
+             position=position_jitter(width=.15), 
+             size=.75) + 
+  geom_boxplot(aes(x=subpop_for_graph, y=AVERAGE_TRUNK_SNS_PER_CN), 
+               position=position_nudge(x=.25,y=0), 
+               outlier.shape=NA, alpha=0.3, width=.1, colour="black") + 
   theme_classic() + 
   coord_flip() + 
   scale_x_discrete(labels=c("Deep benthic", "Shallow benthic", "Diplotaxodon",
-                            "Rhamphochromis", "utaka", "mbuna", 
+                            "Rhamphochromis",  "mbuna", 
                             "A. calliptera salima", "Masoko deep", "Masoko shallow")) +
   scale_fill_manual(values=c("#CCDDAA", "#CCDDAA","#CCDDAA", 
                              "#4477AA", "#DDAA33", "#CCDDAA", 
@@ -627,7 +677,7 @@ malawi_average_sns_per_cn_plot <- ggplot(data=partial_residuals_neuromasts_trunk
         axis.text.y=element_blank(),
         axis.line.y=element_blank(),
         axis.ticks.y=element_blank(), legend.position="none") + 
-  geom_vline(xintercept=7.5, linetype="dashed")
+  geom_vline(xintercept=6.5, linetype="dashed")
 
 malawi_average_sns_per_cn_plot
 
@@ -638,7 +688,3 @@ composite_malawi_plot <- cowplot::plot_grid(malawi_mandibular_plot, malawi_preop
                                                           malawi_trunk_CN_plot, malawi_average_sns_per_cn_plot,
                                                           nrow=2, align="vh") 
 composite_malawi_plot
-
-
-
-
