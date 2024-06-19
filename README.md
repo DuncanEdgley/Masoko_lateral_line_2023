@@ -1,6 +1,8 @@
 # Masoko_lateral_line_2023
 
-Code and data for Edgley et al. | Lateral line diversification during the early stages of ecological speciation in cichlid fish
+Code and data for Edgley, D.E., Carruthers, M., Gabagambi, N.P. et al. Lateral line system diversification during the early stages of ecological speciation in cichlid fish. BMC Ecol Evo 24, 24 (2024). https://doi.org/10.1186/s12862-024-02214-5
+
+https://bmcecolevol.biomedcentral.com/articles/10.1186/s12862-024-02214-5
 
 ---
 
@@ -30,3 +32,7 @@ Masoko_pore_area_calculation.R - R code for calculating lateral line canal pore 
 Masoko_statistical_models.R  - R code for statistical models comparing lateral line morphologies between populations
 
 Masoko_malawi_paper_plots.R - R code for producing figures - conducted in same workspace as "Masoko_statistical_models.R" (above)
+
+---
+
+For any questions please contact duncanedgley@gmail.com
