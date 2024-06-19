@@ -2,8 +2,6 @@
 
 Code and data for Edgley, D.E., Carruthers, M., Gabagambi, N.P. et al. Lateral line system diversification during the early stages of ecological speciation in cichlid fish. BMC Ecol Evo 24, 24 (2024). https://doi.org/10.1186/s12862-024-02214-5
 
-https://bmcecolevol.biomedcentral.com/articles/10.1186/s12862-024-02214-5
-
 ---
 
 DATA:
